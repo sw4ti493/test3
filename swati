@@ -1,0 +1,500 @@
+   14    <meta name="description" content=
+   15    "Gateway to Humane Societies, Animal Shelters and Rescue groups in Montana." />
+   16    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+   17    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+   18    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   19    <style type="text/css">
+   20      body {
+   21        font-family: 'Droid Sans', sans-serif;
+   22        background-color: #F6F5E0;
+   23      }
+   24      .header-title {
+   25        font-family: 'Droid Serif', serif;
+   26        font-size: 34px;
+   27        color: #080808;
+   28        text-shadow: 2px 2px 2px #A46D09;
+   29      }
+   30      a, a:visited, a:active {
+   31        color: hsl(39, 85%, 27%);
+   32        text-decoration: none;
+   33      }
+   34      a:hover {
+   35        color: #000;
+   36        text-decoration: none;
+   37      }
+   38      .mp-navbar {
+   39        background-color: #ECEBD6;
+   40      }
+   41      #map-image img {
+   42        margin: 2em auto;
+   43      }
+   44      .all-notice {
+   45        border: 1px dotted #FFA500;
+   46        margin: 2em;
+   47        padding: 1em;
+   48        font-size: 1.2em;
+   49      }
+   50    </style>
+   51  </head>
+   52  <body>
+   53  <div class="container">
+   54      <nav class="navbar navbar-default mp-navbar" role="navigation">
+   55        <div class="container-fluid">
+   56          <div class="navbar-header">
+   57            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+   58              <span class="sr-only">Toggle navigation</span>
+   59              <span class="icon-bar"></span>
+   60              <span class="icon-bar"></span>
+   61              <span class="icon-bar"></span>
+   62            </button>
+   63            <a href="/"><img src="http://www.montanapets.org/dog1b.gif" width="80" height="65" border="0" align="left" alt="[Montana Pets Logo]" /></a>
+   64          </div>
+   65          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   66            <ul class="nav navbar-nav">
+   67              <li><a class="c1" href="/statewide/obedagility.html">Dog Activities</a></li>
+   68              <li><a class="c1" href="/waitinglist.html">Waiting List</a></li>
+   69              <li><a class="c1" href="/events.html">Statewide Events</a></li>
+   70              <li><a href="memorials/index.html">Pet Memorials</a></li>
+   71              <li><a class="c1" href="/aboutus.html">About</a></li>
+   72            </ul>
+   73          </div>
+   74        </div>
+   75      </nav>
+   76      <div class="row">
+   77        <div class="col-lg-12">
+   78          <div class="text-center">
+   79            <div class="header-title">
+   80              Montana Pets on the Net
+   81            </div>
+   82            <i>"One by one until there are none..."</i>
+   83          </div>
+   84          <p class="lead c6"><strong>Our goal:</strong><br />
+   85          The goal of this page is to increase adoptions of Montana pets currently
+   86          held in shelters, humane societies, and rescue groups across the
+   87          state.
+   88          <br />
+   89          <span class="c3">&nbsp;<br /></span> <a class="bigger" href= "statewide/index.html"><span class="c4">Purebreds, Small&nbsp;Dogs, Special&nbsp;Needs</span></a>
+   90          <br />
+   91          Updated daily, click here for a quick overview of purebred dogs &amp; cats, small dogs, and special needs pets in Montana.
+   92          See also <b><a href= "http://montanapets.org/statewide/rescueslist.html"><span class= "c5">rescue</span></a></b>,
+   93          <b><a href= "http://montanapets.org/statewide/horses.html"><span class= "c5">horses</span></a></b>
+   94          and <b><a href= "https://www.facebook.com/LostFoundAnimalsInMt/"><span class="c5">lost &amp; found</span></a></b><br />
+   95      </div>
+   96      <div id="map-image">
+   97        <img src="http://www.montanapets.org/mtmap.gif" border="0" class="img-responsive" usemap="#ImageMap55292" />
+   98      </div>
+   99      <div class="row">
+  100          <div class="col-sm-3 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+  101            <a class="bigger c1" href= "anaconda/index.html">Anaconda/Deer Lodge</a><br />
+  102            <a class="bigger c1" href="billings/index.html">Billings/Red Lodge</a><br />
+  103            <a class="bigger c1" href="bozeman/index.html">Bozeman</a><br />
+  104            <a class="bigger c1" href="butte/index.html">Butte/Boulder<br /> &nbsp;&nbsp;Whitehall</a><br />
+  105            <a class="bigger c1" href="chinook/index.html">Chinook<br /> &nbsp;&nbsp;Ft. Belknap</a><br />
+  106            <a class="bigger c1" href= "http://www.petfinder.com/shelters/MT42.html">Choteau</a><br />
+  107            <a class="bigger c1" href= "http://montanapets.org/statewide/index.html#Colstrip">Colstrip</a><br />
+  108            <a class="bigger c1" href="cutbank-shelby/index.html">Cut Bank/Shelby<br /> &nbsp;&nbsp;Conrad</a><br />
+  109            <a class="bigger c1" href="dillon/index.html">Dillon</a><br />
+  110            <a class="bigger c1" href= "fortbenton/index.html">Fort&nbsp;Benton</a><br />
+  111            <a class="bigger c1" href= "greatfalls/index.html">Great&nbsp;Falls</a><br />
+  112            <a class="bigger c1" href="hamilton/index.html">Hamilton</a><br />
+  113          </div>
+  114          <div class="col-sm-3 col-xs-10 col-xs-offset-1">
+  115            <a class="bigger c1" href= "http://www.petfinder.com/shelters/MT45.html">Hardin</a><br />
+  116            <a class="bigger c1" href="havre/index.html">Havre</a><br />
+  117            <a class="bigger c1" href="http://www.mtlchs.org/">Helena</a><br />
+  118            <a class="bigger c1" href="kalispell/index.html">Kalispell<br /> &nbsp;&nbsp;Whitefish</a><br />
+  119            <a class="bigger c1" href="laurel/index.html">Laurel</a><br />
+  120            <a class="bigger c1" href="lewistown/index.html">Lewistown</a><br />
+  121            <a class="bigger c1" href="libby/index.html">Libby/Troy/Eureka</a><br />
+  122            <a class="bigger c1" href= "http://www.staffordanimalshelter.org">Livingston</a><br />
+  123            <a class="bigger c1" href="missoula/index.html">Missoula</a><br />
+  124            <a class="bigger c1" href="polson/index.html">Polson</a><br />
+  125            <a class="bigger c1" href= "http://www.rimrockhumanesociety.org/index.php/adoptable-pets">Roundup</a><br />
+  126            <a class="bigger c1" href="sidney/index.html">Sidney</a><br />
+  127            <a class="bigger c1" href="http://www.pet-tracs.com/">Thompson Falls</a><br />
+  128          </div>
+  129      </div>
+  130      <div class="all-notice text-center">All Montana humane societies and shelters are welcome to
+  131        list their animals on this site. Click <a class="c1" href=
+  132          "criteria.htm">HERE</a> to see the criteria for participation in Montana
+  133        Pets on the Net.
+  134      </div>
+  135    <map name="ImageMap55292">
+  136      <area shape="circle" title="Butte" coords="93,111,8" href="butte/index.html" />
+  137      <area shape="circle" title="Billings" coords="184,126,8" href=
+  138      "billings/index.html" />
+  139      <area shape="circle" title="Conrad" coords="93,34,8" href=
+  140      "cutbank-shelby/index.html" />
+  141      <area shape="circle" title="Hardin" coords="210,124,8" href="hardin/index.html" />
+  142      <area shape="circle" title="Livingston" coords="132,134,8" href=
+  143      "http://www.staffordanimalshelter.org/" />
+  144      <area shape="circle" title="Great Falls" coords="114,61,8" href=
+  145      "greatfalls/index.html" />
+  146      <area shape="circle" title="Helena" coords="98,94,8" href="http://www.mtlchs.org/" />
+  147      <area shape="circle" title="Havre" coords="155,24,8" href="havre/index.html" />
+  148      <area shape="circle" title="Polson" coords="48,55,8" href="polson/index.html" />
+  149      <area shape="circle" title="Fort Benton" coords="132,46,8" href=
+  150      "fortbenton/index.html" />
+  151      <area shape="circle" title="Hamilton" coords="46,104,8" href="hamilton/index.html" />
+  152      <area shape="circle" title="Deer Lodge" coords="82,99,8" href=
+  153      "https://www.facebook.com/PAWHS?ref=hl" />
+  154      <area shape="circle" title="Missoula" coords="53,80,8" href="missoula/index.html" />
+  155      <area shape="circle" title="Dillon" coords="82,142,8" href="dillon/index.html" />
+  156      <area shape="circle" title="Kalispell" coords="43,33,8" href=
+  157      "kalispell/index.html" />
+  158      <area shape="circle" title="Chinook" coords="169,23,8" href="chinook/index.html" />
+  159      <area shape="circle" title="Bozeman" coords="117,131,8" href="bozeman/index.html" />
+  160      <area shape="circle" title="Lewistown" coords="164,80,8" href=
+  161      "lewistown/index.html" />
+  162      <area shape="circle" title="Anaconda" coords="77,110,8" href=
+  163      "statewide/index.html#Anaconda" />
+  164      <area shape="circle" title="Laurel" coords="170,130,8" href="laurel/index.html" />
+  165      <area shape="circle" title="Choteau" coords="90,48,8" href=
+  166      "http://www.petfinder.com/shelters/MT42.html" />
+  167      <area shape="circle" title="Roundup" coords="181,109,8" href=
+  168      "http://www.rimrockhumanesociety.org/index.php/adoptable-pets" />
+  169      <area shape="circle" title="Libby" coords="17,20,8" href="libby/index.html" />
+  170      <area shape="circle" title="Shelby" coords="98,22,8" href=
+  171      "cutbank-shelby/index.html" />
+  172      <area shape="circle" title="Sidney" coords="290,51,8" href="sidney/index.html" />
+  173      <area shape="circle" title="Colstrip" coords="236,113,8" href=
+  174      "colstrip/index.html" />
+  175      <area shape="circle" title="Baker" coords="293,92,8" href=
+  176      "http://www.easternmontanahumanesociety.org" />
+  177      <area shape="circle" title="Cut Bank" coords="77,17,8" href=
+  178      "cutbank-shelby/index.html" />
+  179      <area shape="circle" title="Thompson Falls" coords="24,54,8" href=
+  180      "http://www.pet-tracs.com" />
+  181    </map>
+  182    </div>
+  183  </div>
+  184    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  185    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  186  </body>
+  187  </html>
+  188  git remote add origin https://github.com/swatikumar16/Bootstrap-and-Design-Practice.git
+  189  git push origin master
+  190  git add .
+  191  git status
+  192  git remote add origin https://github.com/swatikumar16/Bootstrap-and-Design-Practice.git
+  193  git push origin master
+  194  git pull origin master
+  195  git pull commit origin master
+  196  pwd
+  197  ls
+  198  cd Desktop
+  199  ls
+  200  cd Coding-House
+  201  ls
+  202  cd Test\ 1
+  203  git add /
+  204  git add .
+  205  git remote add origin master
+  206  git remote add oriin https://github.com/swatikumar16/domain-search.git
+  207  git push -u origin master
+  208  git status
+  209  touch README.md
+  210  git init
+  211  git add README.md
+  212  git commit -m "first commit"
+  213  git remote add origin https://github.com/swatikumar16/domain-search.git
+  214  git push -u origin master
+  215  git status
+  216  pwd
+  217  git add .
+  218  git remote add origin
+  219  git push origin master
+  220  nvm
+  221  node --version
+  222  nvm install curl https://raw.githubusercontent.com/creationix/nvm/v0.14.0/install.sh | bash
+  223  install curl https://raw.githubusercontent.com/creationix/nvm/v0.14.0/install.sh | bash
+  224  curl https://raw.githubusercontent.com/creationix/nvm/v0.14.0/install.sh | bash
+  225  status
+  226  pwd
+  227  nvm --version
+  228  nvm --version
+  229  nvm list
+  230  nvm --version
+  231  nvm
+  232  nvm install node
+  233  pwd
+  234  cd Downloads
+  235  nvm --version
+  236  clear
+  237  nvm install v0.11.13
+  238  node --version
+  239  nvm install v0.11.14
+  240  node --version
+  241  clear
+  242  node --version
+  243  git clone https://github.com/creationix/nvm.git ~/.nvm
+  244  source ~/.nvm/nvm.sh
+  245  nvm isntall 0.10
+  246  nvm run 0.10 --version
+  247  nvm ls
+  248  nvm install 0.10.13
+  249  nvm use 0.10.13
+  250  nvm ls
+  251  nvm ls-remote
+  252  nvm install 0.11.13
+  253  nvm run 0.11.13 --version
+  254  npm install -g express express-generator
+  255  express --ejs mpNode
+  256  cd mpNode
+  257  nmp install
+  258  npm install
+  259  ls
+  260  pwd
+  261  npm start
+  262  npm --version
+  263  nmp install -g bower
+  264  npm install -g bower
+  265  pwd
+  266  ls
+  267  npm install -g bower
+  268  bower install
+  269  bower install --save Polymer/platform
+  270  npm
+  271  npm install
+  272  ls
+  273  cd node_modules
+  274  npm install -g bower
+  275  ls
+  276  ../
+  277  ls
+  278  cd Desktop
+  279  pwd
+  280  ls
+  281  cd Desktop
+  282  ls
+  283  cd Coding-House
+  284  ls
+  285  cd El Salvador Project
+  286  ls
+  287  cd El\ Salavdor\ Project
+  288  cd El\ Salvaddor\ Project
+  289  cd ElSalvadoProject
+  290  ls
+  291  . /Users/swati/.aliases 
+  292  c
+  293  ltr
+  294  pwd
+  295  cd ElSalvadorProject/
+  296  ltr
+  297  vi index.html 
+  298  c
+  299  ltr
+  300  vi d3.html 
+  301  open d3.html 
+  302  set -o vi
+  303  open d3.html 
+  304  nvm --version
+  305  nvm --version
+  306  curl https://raw.githubusercontent.com/creationix/nvm/v0.15.0/install.sh | bash
+  307  node -v
+  308  nvm --version
+  309  > -/.profile
+  310  touch -/.profile
+  311  curl https://raw.githubusercontent.com/creationix/nvm/v0.15.0/install.sh | bash
+  312  nvm --version
+  313  history
+  314  nvm --version
+  315  nvm list
+  316  nvm ls --remote
+  317  nvm ls 1---remote
+  318  nvm ls 1--remote
+  319  nvm help
+  320  nvm ls-remote
+  321  node --verison
+  322  node --version
+  323  node --help
+  324  git help
+  325  git help commit
+  326  man ls
+  327  mkdir mynode
+  328  mkdir myFirstNode
+  329  pwd
+  330  tmux
+  331  git init
+  332  app.js
+  333  > app.js
+  334  ls
+  335  ls -al
+  336  cd myFistNode
+  337  cd myFirstNode
+  338  > app.js
+  339  ls
+  340  ../
+  341  ls
+  342  ls -al > output.txt
+  343  cat output.txt
+  344  > app.js
+  345  rm output
+  346  rm output.txt
+  347  ll
+  348  ls
+  349  ls -al
+  350  cd..
+  351  cd ..
+  352  cl
+  353  clear
+  354  cd -
+  355  ls -al
+  356  git init
+  357  ls -al
+  358  git commit
+  359  git log
+  360  git add app.js
+  361  git commit
+  362  git log
+  363  clear
+  364  vi
+  365  node app.js
+  366  node app.js
+  367  node app.js
+  368  cat
+  369  cat app.js
+  370  cat app.js
+  371  cat app.js 
+  372  node app.js
+  373  cat app.js
+  374  cat app.js
+  375  node app.js
+  376  node app.js
+  377  cat app.js
+  378  cat app.js
+  379  cat app.js
+  380  cat app.js
+  381  cat app.js
+  382  git diff --stage
+  383  git diff --staged
+  384  git add app.js
+  385  git diff --staged
+  386  git diff
+  387  git status
+  388  git add -p
+  389  git checkout -b mistake
+  390  git -b mistake
+  391  dit log --decorate --oneline
+  392  git reset --hard d909ccc
+  393  git checkout mistake
+  394  git co -
+  395  git checkout -
+  396  git branch
+  397  git co -b
+  398  ls
+  399  cd myFirstNode
+  400  ls
+  401  git log --decorate --oneline
+  402  > app.js
+  403  git add -A; git commit -m "Clear this file";
+  404  node app.js
+  405  cat app.js
+  406  node app.js
+  407  node app.js
+  408  cat app.js
+  409  node app.js
+  410  ls
+  411  cd app.js
+  412  pwd
+  413  node app.js
+  414  clear
+  415  node public.txt
+  416  clear
+  417  heroku
+  418  ls
+  419  git add -A
+  420  gc
+  421  git commit
+  422  gi branch
+  423  git branch
+  424  git log
+  425  heroku help apps
+  426  heroku apps:create codinghouse42
+  427  heroku login
+  428  heroku apps:create codinghousenode
+  429  env
+  430  export PORT=3000
+  431  git commit -m "Changed PORT"
+  432  npm init
+  433  nvm init
+  434  npm init
+  435  CLEAR
+  436  ls
+  437  pwd
+  438  heroku login
+  439  ls
+  440  cd app.js
+  441  heroku create
+  442  git push heroku master
+  443  heroku create
+  444  git push heroku master
+  445  git remote -v
+  446  git push heroku master
+  447  ssh-keygen -t rsa
+  448  heroku keys:add
+  449  git push heroku master
+  450  ls
+  451  npm init
+  452  npm init
+  453  ls
+  454  npm install <pkg> --save
+  455  npm install package.json --save
+  456  npm install package.json --save
+  457  lte
+  458  ltr
+  459  . /Users/swati/.aliases 
+  460  c
+  461  ltr
+  462  ltr node_modules/
+  463  rm -r node_modules/
+  464  c
+  465  ltr
+  466  cat package.json 
+  467  npm install express --save
+  468  ltr node_modules/
+  469  history
+  470  npm install less --save
+  471  ltr
+  472  cat pak
+  473  cat package.json 
+  474  ltr node_modules/
+  475  rm -r node_modules/
+  476  ltr
+  477  npm install
+  478  ltr node_modules/
+  479  vi package.json 
+  480  ltr
+  481  cat app.js 
+  482  vi app
+  483  vi app.js 
+  484  pwd
+  485  cd ..
+  486  git clone https://github.com/heroku/node-js-getting-started.git
+  487  ls
+  488  ltr
+  489  cd node-js-getting-started/
+  490  ltr
+  491  cat package.json 
+  492  heroku create
+  493  git push heroku master
+  494  heroku ps:scale web=1
+  495  heroku logs --tail
+  496  heroku ps:scale web=2
+  497  heroku ps:scale web=1
+  498  npm init
+  499  npm install
+  500  foreman start web
+  501  pwd
+  502  mkdir terminalPractice
+  503  ls
+  504  cd terminalPractice/
+  505  cp simple-node
+  506  pwd
+  507  cp /Users/swati/Downloads/simple-node.zip .
+  508  ltr
+  509  . /Users/swati/.aliases 
+  510  lt
+  511  jar xvf simple-node.zip 
+  512  history
+  513  history > swati
